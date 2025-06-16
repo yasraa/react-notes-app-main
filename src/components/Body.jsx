@@ -38,7 +38,7 @@ const AppBody = ({ notes, addNewNote, onDelete, onArchive }) => {
     
     return (
         <div className="note-app__body">
-            <h2 className="note-body__heading">Welcome to BetHup Note!</h2>
+            <h2 className="note-body__heading">Welcome to Note App!</h2>
             <button className="note-body__add-note-button" onClick={openModal}>Add new note</button>
             <Modal
                 isOpen={modalIsOpen}
